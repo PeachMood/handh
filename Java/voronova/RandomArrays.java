@@ -1,17 +1,19 @@
+package voronova;
+
 import java.util.*;
 import java.util.stream.Stream;
 
 /**
  * A class containing a public method {@link #generateArrays(int)} for solving a test task for the development school Heads x Hands.
  */
-public class Task {
+public class RandomArrays {
     /**
      * A set containing the sizes of all created arrays.
      */
     private Set<Integer> sizes;
     private Random random;
 
-    public Task() {
+    public RandomArrays() {
         sizes = new HashSet<>();
         random = new Random();
     }
